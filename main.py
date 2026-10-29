@@ -15,7 +15,7 @@ def main():
     discount_value_result = discount_value(price, discount_percent)
 
     print(f"Sleva: {discount_value_result} Kč.")
-    print(f"Cena po slevě: {discounted_price:.2f} Kč.")
+    print(f"Částka k úhradě: {discounted_price:.2f} Kč.")
 
 
 if __name__ == '__main__':
